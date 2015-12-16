@@ -9,7 +9,7 @@ $(document).ready(function () {
         var control = event.target || event.srcElement;
         var id = control.id;
 
-        var urlString = "/api/math";
+        var urlString = "/api/math/";
 
         switch (id) {
             case 'btnAdd':
