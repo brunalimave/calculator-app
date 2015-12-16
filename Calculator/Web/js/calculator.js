@@ -16,7 +16,7 @@ $document.ready(function () {
                 urlString = urlString + "Add/?" + arg;
                 break;
             case 'btnMinus':
-                urlString = urlString + "Subtract/?" + arg;
+                urlString = urlString + "Substract/?" + arg;
                 break;
             case 'btnMultiply':
                 urlString = urlString + "Multiply/?" + arg;
@@ -25,8 +25,10 @@ $document.ready(function () {
                 urlString = urlString + "Divide/?" + arg;
                 break;
             default:
-                urlString = urlString + "Hello";
+                urlString = urlString + "hello";
+
         }
+
 
         $.ajax({
             url: urlString,
@@ -37,7 +39,7 @@ $document.ready(function () {
             },
             error: function (xhr, status, error) {
                 var err = eval("(" + xhr.responseText + ")");
-                $("txtResult").val(err.Message)
+                $("#txtResult").val(err.Message)
             }
         })
 
