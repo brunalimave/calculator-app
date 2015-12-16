@@ -11,25 +11,25 @@ namespace Calculator.Controllers
     public class MathController : ApiController
     {
         [HttpGet]
-        public int Add(int value1, int value2)
+        public float Add(float value1, float value2)
         {
             return value1 + value2;
         }
 
         [HttpGet]
-        public int Subtract(int value1, int value2)
+        public float Subtract(float value1, float value2)
         {
             return value1 - value2;
         }
 
         [HttpGet]
-        public int Multiply(int value1, int value2)
+        public float Multiply(float value1, float value2)
         {
             return value1 * value2;
         }
 
         [HttpGet]
-        public int Divide(int value1, int value2)
+        public float Divide(float value1, float value2)
         {
             return value1 / value2;
         }
