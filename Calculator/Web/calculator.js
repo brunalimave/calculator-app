@@ -1,4 +1,5 @@
-﻿
+﻿/// <reference path="calculator.js" />
+
 
 $(document).ready(function () {
 
@@ -16,7 +17,7 @@ $(document).ready(function () {
                 urlString = urlString + "Add/?" + arg;
                 break;
             case 'btnMinus':
-                urlString = urlString + "Substract/?" + arg;
+                urlString = urlString + "Subtract/?" + arg;
                 break;
             case 'btnMultiply':
                 urlString = urlString + "Multiply/?" + arg;
