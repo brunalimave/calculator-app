@@ -6,7 +6,7 @@ $(document).ready(function () {
     $(":button").click(function () {
         var value1 = $("#txtValue1").val();
         var value2 = $("#txtValue2").val();
-        var arg = value1 + "&" + value2;
+        var arg = "value1=" + value1 + "&value2=" + value2;
         var control = event.target || event.srcElement;
         var id = control.id;
 
