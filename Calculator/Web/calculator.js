@@ -1,6 +1,6 @@
 ﻿
 
-$document.ready(function () {
+$(document).ready(function () {
 
     $(":button").click(function () {
         var value1 = $("#txtValue1").val();
