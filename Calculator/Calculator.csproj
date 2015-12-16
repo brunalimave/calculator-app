@@ -85,6 +85,7 @@
     <Content Include="Web\Calculator.html" />
     <Content Include="Web.config" />
     <Content Include="Web\calculator.js" />
+    <Content Include="Web\styles.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />

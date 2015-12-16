@@ -25,8 +25,6 @@ $(document).ready(function () {
             case 'btnDivide':
                 urlString = urlString + "Divide/?" + arg;
                 break;
-            default:
-                urlString = urlString + "hello";
 
         }
 
