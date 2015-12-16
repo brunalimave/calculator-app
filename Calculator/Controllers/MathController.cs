@@ -17,7 +17,7 @@ namespace Calculator.Controllers
         }
 
         [HttpGet]
-        public int Substract(int value1, int value2)
+        public int Subtract(int value1, int value2)
         {
             return value1 - value2;
         }
